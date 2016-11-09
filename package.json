@@ -17,24 +17,24 @@
   },
   "man": "man/sprout.1",
   "dependencies": {
-    "coffee-script": "1.7.x",
-    "colors": "0.6.x",
+    "coffee-script": "~1.11.1",
+    "colors": "~1.1.2",
     "optimist": "0.6.x",
-    "indx": "0.1.x",
-    "osenv": "0.0.x",
+    "indx": "~0.2.3",
+    "osenv": "~0.1.3",
     "rimraf": "2.x",
-    "ncp": "0.5.x",
-    "ejs": "0.8.x",
-    "prompt": "0.2.x",
-    "readdirp": "0.3.x",
-    "when": "2.x",
-    "mkdirp": "0.3.x",
-    "which": "1.0.x"
+    "ncp": "~2.0.0",
+    "ejs": "~2.5.2",
+    "prompt": "~1.0.0",
+    "readdirp": "~2.1.0",
+    "when": "^3.7.7",
+    "mkdirp": "~0.5.1",
+    "which": "~1.2.11"
   },
   "devDependencies": {
     "mocha": "*",
     "should": "*",
-    "shelljs": "0.2.x"
+    "shelljs": "~0.7.5"
   },
   "scripts": {
     "test": "mocha"
